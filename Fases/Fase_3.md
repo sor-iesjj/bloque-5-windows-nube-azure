@@ -83,6 +83,14 @@
 
 ### 🔓 Puertos: qué ya está abierto y qué falta
 
+> [!example] 🎬 Antes de empezar (todavía SIN grabar, y luego arranca)
+> Ya conoces el método desde los prerrequisitos, así que va solo el recordatorio:
+> 1. **Crea la entrada de apuntes** de esta fase (`v2-1-fase-3-conectividad-vpn-wireguard-para-windows.md`) con su estructura, vacía.
+> 2. **Léete los 4 pasos** del procedimiento enteros, para no atascarte a mitad del vídeo.
+> 3. Ten **OBS** listo y comprueba **pantalla y micrófono**.
+>
+> Cuando lo tengas: **arranca la grabación, preséntate y muestra tu identidad**. A partir de ahí, **todo queda grabado** — incluido cualquier paso previo de preparación que venga a continuación.
+
 > [!example] El puerto de WireGuard ya está abierto desde la Fase 1
 > A diferencia de BoochanV2 (donde el NSG se iba ampliando fase a fase), en BoochanV2.1 el NSG completo del proyecto se preparó de una sola vez en la Fase 1 — incluido el puerto que esta fase necesita:
 >
