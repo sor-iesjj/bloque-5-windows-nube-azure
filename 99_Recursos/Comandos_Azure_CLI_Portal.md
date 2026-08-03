@@ -46,7 +46,7 @@ Esta guía no existe en BoochanV1.1 (Hyper-V local), porque allí no hay ningún
 >   --image Win2025Datacenter \
 >   --size Standard_B4ms \
 >   --admin-username azureadmin \
->   --admin-password "Az2026!Boochan#" \
+>   --admin-password "P@ssw0rd.SOR.2026" \
 >   --public-ip-sku Standard
 > ```
 >

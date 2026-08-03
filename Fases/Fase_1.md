@@ -135,7 +135,7 @@ Al terminar esta fase serás capaz de:
 > | **Imagen** | `Windows Server 2025 Datacenter: Azure Edition - x64 Gen2` |
 > | **Tamaño** | `Standard_B4ms` (4 vCPUs, 16 GB RAM) |
 > | **Nombre de usuario administrador** | `azureadmin` |
-> | **Contraseña** | `Az2026!Boochan#` *(¡anótala, la necesitarás en cada práctica!)* |
+> | **Contraseña** | `P@ssw0rd.SOR.2026` *(¡anótala, la necesitarás en cada práctica!)* |
 > | **Puertos de entrada públicos** | Permitir puertos seleccionados → **RDP (3389)** |
 >
 > 4. En la pestaña **`Discos`**, deja el tipo de disco del sistema operativo por defecto (**SSD Premium**) y el tamaño que proponga la imagen (en torno a 127 GB — es el necesario para Windows Server con Desktop Experience más margen para el rol AD DS).
@@ -200,7 +200,7 @@ Al terminar esta fase serás capaz de:
 > 3. Pulsa **`Conectar`**.
 > 4. Cuando te pida credenciales, introduce:
 >    - **Usuario:** `azureadmin` (o `WindowsServer\azureadmin` si te lo pide con el nombre del equipo delante)
->    - **Contraseña:** `Az2026!Boochan#`
+>    - **Contraseña:** `P@ssw0rd.SOR.2026`
 > 5. Aparecerá una advertencia de certificado ("No se puede verificar la identidad del equipo remoto"). Es normal la primera vez porque el certificado es autofirmado — pulsa **`Sí`** para continuar.
 >
 > **En Mac / Linux:**
@@ -208,8 +208,16 @@ Al terminar esta fase serás capaz de:
 >
 > Si al final ves el escritorio de Windows Server con el `Administrador del servidor` abierto automáticamente, **ya estás dentro de tu servidor**. A partir de aquí, todo lo que hagas con el ratón y el teclado se ejecuta en Azure, a cientos de kilómetros.
 >
-> > [!warning] ⚠️ La contraseña debe cumplir la política de complejidad de Windows
-> > `Az2026!Boochan#` incluye mayúsculas, minúsculas, números y símbolos a propósito — Windows exige contraseñas complejas por defecto. Si en algún momento tienes que crear otra contraseña (por ejemplo, para un usuario de dominio en fases posteriores), recuerda incluir los cuatro tipos de carácter.
+> > [!warning] ⚠️ ¿Por qué aquí NO vale el `P@ssw0rd` del resto del módulo?
+> > En todas las máquinas locales de este módulo la contraseña es `P@ssw0rd`. Aquí no, y el motivo es interesante: **Azure la rechaza, por dos razones a la vez.**
+> > 1. **Longitud.** El portal de Azure exige **entre 12 y 72 caracteres** para la contraseña del administrador de una VM. `P@ssw0rd` tiene 8. Ni lo intentes: el formulario no te deja pasar de pantalla.
+> > 2. **Lista negra.** Aunque tuviera 12, Azure mantiene una **lista de contraseñas prohibidas** con las más usadas del mundo — y `P@ssw0rd` es de las primeras de esa lista. Microsoft directamente no te deja poner en internet una máquina con una contraseña que un atacante prueba en el primer segundo.
+> >
+> > Por eso aquí usamos **`P@ssw0rd.SOR.2026`**: 17 caracteres, con mayúsculas, minúsculas, números y símbolos.
+> >
+> > **La lección, que es la de verdad:** la misma contraseña que es aceptable en tu portátil aislado **es inaceptable en cuanto la máquina tiene IP pública**, y el proveedor te lo impone aunque tú no quieras. Cuando el servidor deja de estar escondido, las reglas cambian solas.
+> >
+> > ⚠️ **No la confundas con la del dominio.** Esta es la contraseña del **administrador de la VM** (`azureadmin`). La del **Administrator del dominio** que crearás en la Fase 4 sigue siendo `P@ssw0rd`, porque el dominio vive dentro de la red privada y ahí manda la política de Active Directory, no la de Azure. **Son dos contraseñas distintas para dos cosas distintas. Anota las dos.**
 >
 > > [!tip] 💡 ¿Qué es RDP?
 > > RDP (Remote Desktop Protocol) es como un **"mando a distancia" cifrado que te lleva la pantalla entera** del servidor a tu monitor. Desde tu ratón y teclado del aula estás controlando un ordenador de Azure, a cientos de kilómetros, como si tuvieras el monitor del servidor delante. Todo el tráfico viaja cifrado.

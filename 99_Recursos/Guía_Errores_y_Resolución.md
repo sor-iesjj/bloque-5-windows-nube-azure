@@ -67,7 +67,7 @@ Estos problemas pueden aparecer en cualquier fase porque son de la capa cloud, n
 > Al introducir usuario y contraseña en la ventana de `mstsc`.
 
 > [!example] Resolución
-> Comprueba que escribes exactamente `azureadmin` y la contraseña tal cual, respetando mayúsculas/símbolos (`Az2026!Boochan#`). Revisa que Bloq Mayús no esté activado por error.
+> Comprueba que escribes exactamente `azureadmin` y la contraseña tal cual, respetando mayúsculas/símbolos (`P@ssw0rd.SOR.2026`). Revisa que Bloq Mayús no esté activado por error.
 
 ---
 
@@ -326,7 +326,7 @@ Estos problemas pueden aparecer en cualquier fase porque son de la capa cloud, n
 > Al crear un usuario con `New-ADUser` con una contraseña que no cumple la política de complejidad de AD.
 
 > [!info] ¿Hay que preocuparse?
-> No. Usa una contraseña con mayúsculas, minúsculas, números y símbolos, como `P@ssword2026!`.
+> No. Usa una contraseña con mayúsculas, minúsculas, números y símbolos, como `P@ssw0rd`.
 
 ---
 
