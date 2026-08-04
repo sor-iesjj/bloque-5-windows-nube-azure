@@ -8,7 +8,9 @@
 ---
 
 > [!important] 💾 El trabajo de máquina termina aquí
-> Antes de sentarte a contestar las preguntas, **asegura el estado del servidor**. Con la grabación todavía en marcha, apaga la VM y toma la instantánea **`Fase 2 terminada`**.
+> Antes de sentarte a contestar las preguntas, **asegura el estado del servidor**. Con la grabación todavía en marcha, detén la VM y crea una **instantánea del disco del sistema** en Azure, llamada **`Fase 2 terminada`**.
+>
+> *(El procedimiento exacto en Azure está en [[Fase_0.S_Instantaneas_Puntos_de_Control]].)*
 >
 > **Por qué aquí y no al final:** las preguntas son trabajo de mesa y puedes tardar días. La instantánea cierra el trabajo de máquina **mientras lo tienes fresco**.
 >
