@@ -12,7 +12,7 @@
 >
 > | Entregable | Dónde vive | Qué debe contener |
 > | :--- | :--- | :--- |
-> | **Entrada de apuntes** | `v2-1-fase-8-integracion-del-cliente-windows-11.md` | El procedimiento con tus palabras + **respuestas a las preguntas** + **enlace del vídeo** |
+> | **Entrada de apuntes** | `b5-azure-8-integracion-del-cliente-windows-11.md` | El procedimiento con tus palabras + **respuestas a las preguntas** + **enlace del vídeo** |
 > | **Vídeo** | Playlist (No listado) | `V2.1 · Fase 8 — Integración del Cliente (Windows 11)`, con presentación, identidad y timestamps |
 > | **Repositorio** | Tu repo de apuntes en GitHub | La entrada, con `git add` → `commit` → `push` |
 > | **💾 Punto de control** | Instantánea | Nombrada **`Fase 8 terminada`**, tomada **durante la grabación** |

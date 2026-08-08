@@ -17,7 +17,7 @@
 
 > [!example] 🎬 Antes de empezar (todavía SIN grabar, y luego arranca)
 > Ya conoces el método desde los prerrequisitos, así que va solo el recordatorio:
-> 1. **Crea la entrada de apuntes** de esta fase (`v2-1-fase-2-preparacion-inicial-del-servidor.md`) con su estructura, vacía.
+> 1. **Crea la entrada de apuntes** de esta fase (`b5-azure-2-preparacion-inicial-del-servidor.md`) con su estructura, vacía.
 > 2. **Léete los 6 pasos** del procedimiento enteros, para no atascarte a mitad del vídeo.
 > 3. Ten **OBS** listo y comprueba **pantalla y micrófono**.
 >

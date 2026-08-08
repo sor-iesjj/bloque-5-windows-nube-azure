@@ -12,7 +12,7 @@
 >
 > | Entregable | Dónde vive | Qué debe contener |
 > | :--- | :--- | :--- |
-> | **Entrada de apuntes** | `v2-1-fase-5-gestion-de-identidades-usuarios-y-grupos.md` | El procedimiento con tus palabras + **respuestas a las preguntas** + **enlace del vídeo** |
+> | **Entrada de apuntes** | `b5-azure-5-gestion-de-identidades-usuarios-y-grupos.md` | El procedimiento con tus palabras + **respuestas a las preguntas** + **enlace del vídeo** |
 > | **Vídeo** | Playlist (No listado) | `V2.1 · Fase 5 — Gestión de Identidades (Usuarios y Grupos en Active Directory)`, con presentación, identidad y timestamps |
 > | **Repositorio** | Tu repo de apuntes en GitHub | La entrada, con `git add` → `commit` → `push` |
 > | **💾 Punto de control** | Instantánea | Nombrada **`Fase 5 terminada`**, tomada **durante la grabación** |
